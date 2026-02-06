@@ -15,3 +15,11 @@ efg<br>
 fg<br>
 g<br>
 .
+
+## Fib File
+
+**Here is a picture of the graph I created to show the Fibonacci number calculation by time in seconds**
+
+![alt text](fibPlot.png)
+
+The plot shows the execution time for calculating each Fibonacci number, where the x-axis represents the value of n and the y-axis represents the time in seconds. Even though lru_cache greatly improves performance, the execution time still gradually increases as n grows due to additional function calls and overhead. This results in a smooth upward curve rather than an exponential increase.
